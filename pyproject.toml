@@ -1,5 +1,5 @@
 [project]
-name = "uv-lib"
+name = "snp-priortization"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -10,6 +10,7 @@ requires-python = ">=3.12"
 dependencies = [
     "loguru>=0.7.3",
     "polars[all]>=1.41.0",
+    "pysam>=0.24.0",
 ]
 
 [build-system]
@@ -19,5 +20,6 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "marimo>=0.23.8",
+    "pytest>=9.0.3",
     "quak>=0.3.5",
 ]
