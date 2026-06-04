@@ -1,5 +1,7 @@
 # User defined
+agent
 scratch
+fingerprints
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,19 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Phred-scaled likelihoods">
+##contig=<ID=chr1,length=1000000>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	C
+chr1	1000	.	A	G	.	.	.	AD:DP:PL	10,10:20:500,50,0
+chr1	2000	.	C	T	.	.	.	AD:DP:PL	10,10:20:0,40,400
+chr1	3000	.	A	G	.	.	.	AD:DP:PL	10,10:20:300,30,0
+chr1	3500	.	G	T	.	.	.	AD:DP:PL	10,10:20:0,35,360
+chr1	4000	.	T	C	.	.	.	AD:DP:PL	10,10:20:0,40,400
+chr1	5000	.	A	T	.	.	.	AD:DP:PL	10,10:20:0,900,4800
+chr1	6000	.	G	C	.	.	.	AD:DP:PL	10,10:20:0,40,420
+chr1	7000	.	A	C	.	.	.	AD:DP:PL	10,10:20:0,47,470
+chr1	8000	.	T	A	.	.	.	AD:DP:PL	10,10:20:360,36,0
+chr1	9000	.	C	G	.	.	.	AD:DP:PL	10,10:20:0,50,500
+chr1	10000	.	T	G	.	.	.	AD:DP:PL	10,10:20:0,31,330
+chr1	11000	.	A	G	.	.	.	AD:DP:PL	10,10:20:590,59,0
+chr1	12000	.	C	A	.	.	.	AD:DP:PL	10,10:20:0,44,440
